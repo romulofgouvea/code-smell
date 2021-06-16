@@ -1,0 +1,39 @@
+// To many parameters (Muitos parâmetros)
+
+// Inappropriate Intimacy (Intimidade Inapropriada): 
+// - Uma classe possui detalhes de implementação de outra classe
+// - Pode acontecer em heranças, quando um subclasse tem acesso a 
+//   muitos detalhes da classe pai
+
+// Divergent Changes:
+// - Uma classe precisa ser modificada para entrar em conformidade
+//   com naturezas distintas do sistema, indicando um sério problema
+//   de coesão
+
+// Shotgun Surgery (Cirurgia com espingarda):
+// - Ocorre quando diferentes classes precisam ser modificadas para
+//   uma alteração de um aspecto do sistema
+
+// Data Clumps (Aglomeração de dados):
+// - São dados que aparecem juntos repetidamente em diversos locais do código.
+//   Por exemplo, métodos que tem parâmetros iguais em diversos locais, pois é,
+//   eles devem ser colocados em seu próprio objeto
+
+// Lazy Class
+
+// Message Chains
+
+// Temporary Field
+
+// Data Class:
+// - É quando uma classe tem apenas métodos get e set
+
+// Ferramentas para identificar code smells:
+// - PMD (várias linguagens)
+// - Checkstyle (java)
+// - FindBugs (java)
+// - ReSharper (.net)
+// - PHPMD (php)
+
+// Code Smell - Não é um erro ou uma má prática. Ele é apenas um 
+// indicativo que algo pode estar errado ou precisa ser melhorado. 
