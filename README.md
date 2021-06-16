@@ -32,6 +32,7 @@ indicativo que algo pode estar errado ou precisa ser melhorado.
 - FindBugs (java)
 - ReSharper (.net) 
 - PHPMD (php)
+- Sonarqube
 
 <h3>Referências</h3>
 
