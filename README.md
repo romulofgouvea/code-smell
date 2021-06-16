@@ -26,14 +26,16 @@ indicativo que algo pode estar errado ou precisa ser melhorado.
 ---
 
 <h3>Ferramentas para identificar code smells</h3>
-- PMD (várias linguagens) <br>
-- Checkstyle (java) <br>
-- FindBugs (java) <br>
-- ReSharper (.net) <br>
-- PHPMD (php) <br>
+
+- PMD (várias linguagens) 
+- Checkstyle (java) 
+- FindBugs (java)
+- ReSharper (.net) 
+- PHPMD (php)
 
 <h3>Referências</h3>
-- Code Smell (A arte de farejar código ruim) // Dicionário do Programador: https://www.youtube.com/watch?v=SQqqiC0YpA0
+
+- Code Smell: (A arte de farejar código ruim) Dicionário do Programador: https://www.youtube.com/watch?v=SQqqiC0YpA0
 
 - Code Smells: Evite duplicações, Números mágicos e Hard Coding: https://www.youtube.com/watch?v=EZM7wHL7Mkg
 
