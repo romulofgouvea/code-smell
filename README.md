@@ -1,4 +1,4 @@
-<h2>Code Smell</h2>
+<h1>Code Smell</h1>
 
 <p>Code Smell - Não é um erro ou uma má prática. Ele é apenas um 
 indicativo que algo pode estar errado ou precisa ser melhorado.
@@ -13,24 +13,24 @@ indicativo que algo pode estar errado ou precisa ser melhorado.
 - [x] Exemplo5: if/else ou switch/case 
 - [x] Exemplo6: Parâmetros lógicos
 - [x] Exemplo7: Condições compostas
-- [] Exemplo8: To many parameters
-- [] Exemplo9: Inappropriate Intimacy
-- [] Exemplo10: Divergent Changes
-- [] Exemplo11: Shotgun Surgery
-- [] Exemplo12: Data Clumps
-- [] Exemplo13: Lazy Class
-- [] Exemplo14: Message Chains
-- [] Exemplo15: Temporary Field
-- [] Exemplo16: Data Class
+- [ ] Exemplo8: To many parameters
+- [ ] Exemplo9: Inappropriate Intimacy
+- [ ] Exemplo10: Divergent Changes
+- [ ] Exemplo11: Shotgun Surgery
+- [ ] Exemplo12: Data Clumps
+- [ ] Exemplo13: Lazy Class
+- [ ] Exemplo14: Message Chains
+- [ ] Exemplo15: Temporary Field
+- [ ] Exemplo16: Data Class
 
 ---
 
 <h3>Ferramentas para identificar code smells</h3>
-- PMD (várias linguagens)
-- Checkstyle (java)
-- FindBugs (java)
-- ReSharper (.net)
-- PHPMD (php)
+- PMD (várias linguagens) <br>
+- Checkstyle (java) <br>
+- FindBugs (java) <br>
+- ReSharper (.net) <br>
+- PHPMD (php) <br>
 
 <h3>Referências</h3>
 - Code Smell (A arte de farejar código ruim) // Dicionário do Programador: https://www.youtube.com/watch?v=SQqqiC0YpA0
