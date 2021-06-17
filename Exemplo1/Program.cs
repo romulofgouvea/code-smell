@@ -10,18 +10,17 @@ namespace Exemplo1
     {
         public static void Main(string[] args)
         {
-            var processo = new Processo();
-
             // ERRADO
-            // Acesso de forma direta. Comportamentos não podem ser localizados em lugaremos diversos. 
-            // Comportamento deve ser movido para classe, visto que ela é responsável por mexer nos
-            // seus próprios estados.
-            processo.DataCancelamento = DateTime.Now;
+            var processoModoErrado = new Processo
+            {
+                DataCancelamento = DateTime.Now
+            };
+
+            processoModoErrado.DataCancelamento = DateTime.Today;
 
             // CORRETO
-            // Devemos utilizar o comportamento da própria classe, visto que esse comportamento
-            // vai manipular apenas estados/propriedades da própria classe. 
-            processo.Cancelar();
+            var processoModoCorreto = new Processo();
+            processoModoCorreto.AlteraDataCancelamento();
         }
     }
 }
