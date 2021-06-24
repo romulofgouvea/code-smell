@@ -12,7 +12,7 @@ namespace Exemplo1
         // CERTO
         public DateTime? DataCancelamento { get; private set; }
 
-        public void Cancelar()
+        public void AlteraDataCancelamento()
         {
             DataCancelamento = DateTime.Now;
         }
